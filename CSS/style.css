@@ -16,6 +16,21 @@ body {
     background:lightpink;
 }
 
+p, h3{
+    color: #785964;
+}
+
+a{
+    color: #12918F;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FCFF4B;
+}
+
+
+
 nav ul{
     list-style: none;
     padding:0;
@@ -27,7 +42,7 @@ nav ul{
 }
 
 header {
-    border-bottom: 5px solid grey;
+    border-bottom: 3px solid #FCFF4B;
     padding: 30px;
     display: flex;
     justify-content: space-between;
