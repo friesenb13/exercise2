@@ -14,11 +14,20 @@ img {
 
 body {
     background:lightpink;
+/*    background:#B5E2FA;*/
+/*    background: #8be687;*/
+    font-family: 'Comfortaa';
+    font-size: 17px;
 }
 
 p, h3{
     color: #785964;
 }
+
+h1, h2{
+    text-align: center;
+}
+
 
 a{
     color: #12918F;
@@ -66,13 +75,14 @@ footer{
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-gap: 50px;
+    font-size: 12px;
 }
 
 .credits{
     text-align:right;
     
 }
-/*
-.myelement {
-  cursor: url(images/cat.png), auto;
-}*/
+
+.joke{
+  cursor: url(../images/cat.png), auto;
+}
