@@ -11,21 +11,15 @@ img {
     max-width:  100%;
 }
 
-
 body {
-    background:lightpink;
-/*    background:#B5E2FA;*/
-/*    background: #8be687;*/
+    display: flex;
+    flex-direction: column;
+    background:#ffc4d3;
     font-family: 'Comfortaa';
-    font-size: 17px;
 }
 
 p, h3{
     color: #785964;
-}
-
-h1, h2{
-    text-align: center;
 }
 
 
@@ -58,10 +52,7 @@ header {
     align-items: center;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
+
 
 main{
     flex-grow:1;
@@ -85,4 +76,16 @@ footer{
 
 .joke{
   cursor: url(../images/cat.png), auto;
+    text-align: center;
+}
+
+#answer1, #joke2, #answer2, #joke3, #answer3{
+    display:none;
+}
+
+#next, #next2, #next3{
+    background-color: #FCFF4B;
+    padding: 15px 15px;
+    display:none;
+    border-radius: 8px;
 }
