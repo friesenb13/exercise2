@@ -75,15 +75,15 @@ footer{
 }
 
 .joke{
-  cursor: url(../images/cat.png), auto;
+  cursor: url(../images/cat-crylaugh.png), auto;
     text-align: center;
 }
 
-#answer1, #joke2, #answer2, #joke3, #answer3{
+.hide{
     display:none;
 }
 
-#next, #next2, #next3{
+.next{
     background-color: #FCFF4B;
     padding: 15px 15px;
     display:none;
